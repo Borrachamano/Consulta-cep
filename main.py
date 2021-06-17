@@ -1,8 +1,9 @@
 try:
+        from os import system
 	import requests as rq
-	from os import system
 except:
-	raise Exception('Ocorreu algo ae kakakakkaka')
+	system("pip intall requests")
+        import requests as rq
 
 
 def lines():
